@@ -1,0 +1,38 @@
+/*
+Theme Name: Total Child Theme
+Theme URI: https://your-site.com
+Description: Your site description. Go to Appearance > Editor to modify this file.
+Author: Your Name
+Author URI: https://your-site.com
+Template: Total
+Version: 1.0
+*/
+@font-face {
+  font-family: "CircularBold";
+  src: url("fonts/CircularStd-Bold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/CircularStd-Bold.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/CircularStd-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/CircularStd-Bold.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "CircularBook";
+  src: url("fonts/CircularStd-Book.eot"); /* IE9 Compat Modes */
+  src: url("fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/CircularStd-Book.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/CircularStd-Book.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/CircularStd-Book.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "CircularMedium";
+  src: url("fonts/CircularStd-Medium.eot"); /* IE9 Compat Modes */
+  src: url("fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/CircularStd-Medium.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/CircularStd-Medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/CircularStd-Medium.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
