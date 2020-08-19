@@ -38,3 +38,17 @@ function wpex_add_custom_fonts() {
 					'CircularMedium'=>'CircularMedium',
 					);
 }
+
+function searchbar( $form ) {
+
+	$form = '<form role="search" method="get" id="searchform" action="'. home_url( ‘/’ ) .'">
+	<div><label class="screen-reader-text" for="s">'. __('Search for:') .'</label>
+	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="Type here..." />
+	<input type="submit" id="searchsubmit" value="'. esc_attr__('Search') .'" />
+	</div>
+	</form>';
+	
+	return $form;
+	}
+	
+	add_shortcode('searchbar', 'searchbar');

@@ -1,0 +1,840 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-06-30 18:32+0300\n"
+"PO-Revision-Date: 2020-07-15 14:01+0300\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../../../development/web projects/wpknowledgebase/wp-"
+"content/plugins\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: wp-knowledgebase\n"
+"X-Poedit-SearchPath-1: wp-knowledgebase-add-on-content-restriction\n"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:80
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:34
+#: wp-knowledgebase/includes/admin/functions-promo.php:23
+msgid "Content Restriction"
+msgstr "Beskyttelse af indhold"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:90
+msgid "Global Content Availability"
+msgstr "Global indholdstilgængelighed"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:95
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:99
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:69
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:73
+msgid "Public"
+msgstr "Offentlig"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:96
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:100
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:70
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:74
+msgid "Private"
+msgstr "Privat"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:99
+msgid "All users will have access to your knowledge base content."
+msgstr "Alle brugere har adgang til dit vidensbaseindhold."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:100
+msgid "Only logged-in users will have access to your knowledge base content."
+msgstr "Kun indloggede brugere har adgang til dit vidensbaseindhold."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:109
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:83
+msgid "User Roles Availability"
+msgstr "Tilgængelighed for brugerroller"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:119
+msgid ""
+"Allow access to the private knowledge base only to the selected user roles."
+msgstr ""
+"Tillad kun adgang til den private vidensbase for de valgte brugerroller."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:128
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:102
+msgid "Individual Users Availability"
+msgstr "Tilgængelighed for individuelle brugere"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:138
+msgid "Allow access to the private knowledge base only to the selected users."
+msgstr "Tillad kun adgang til den private vidensbase for de valgte brugere."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:147
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:121
+msgid "Redirect URL"
+msgstr "URL til omdiregering"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-general-settings.php:153
+msgid ""
+"Set a custom URL if you wish to redirect users without permissions when they "
+"try to access restricted content. By default, restricted content will "
+"redirect to the 404 not found page."
+msgstr ""
+"Angiv en brugerdefineret URL, hvis du vil omdirigere brugere uden "
+"tilladelser, når de prøver at få adgang til begrænset indhold. Som standard "
+"omdirigeres begrænset indhold til siden 404, siden blev ikke fundet."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:63
+msgid "Article Availability"
+msgstr "Artikeltilgængelighed"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:68
+msgid "Settings default"
+msgstr "Standardindstillinger"
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:73
+msgid "All users will have access to this knowledge base article."
+msgstr "Alle brugere har adgang til denne vidensbaseartikel."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:74
+msgid "Only logged-in users will have access to this knowledge base article."
+msgstr "Kun indloggede brugere har adgang til denne vidensbaseartikel."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:93
+msgid ""
+"Allow access to this knowledge base article only to the selected user roles."
+msgstr ""
+"Tillad kun adgang til denne vidensbaseartikel for de valgte brugerroller."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:112
+msgid "Allow access to this knowledge base article only to the selected users."
+msgstr "Tillad kun adgang til denne vidensbaseartikel for de valgte brugere."
+
+#: wp-knowledgebase-add-on-content-restriction/includes/admin/class-meta-box.php:127
+msgid ""
+"Set a custom URL if you wish to redirect users without permissions when they "
+"try to access this article. By default, users will be redirected to the 404 "
+"not found page."
+msgstr ""
+"Angiv en brugerdefineret URL, hvis du vil omdirigere brugere uden "
+"tilladelser, når de prøver at få adgang til denne artikel. Som standard "
+"omdirigeres brugere til siden 404, siden blev ikke fundet."
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:168
+msgid "List View"
+msgstr "Listevisning"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:169
+msgid "Excerpt View"
+msgstr "Uddragsvisning"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:352
+msgid "No items found."
+msgstr "Ingen emner fundet."
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:479
+msgid "Select bulk action"
+msgstr "Vælg massehandling"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:481
+msgid "Bulk Actions"
+msgstr "Massehandling"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:491
+msgid "Apply"
+msgstr "Anvend"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:541
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:1362
+msgid "Show more details"
+msgstr "Vis flere detaljer"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:604
+msgid "Filter by date"
+msgstr "Filtrér efter dato"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:606
+msgid "All dates"
+msgstr "Alle datoer"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:619
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:678
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:690
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:703
+msgid "No comments"
+msgstr "Ingen kommentarer"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:690
+msgid "No approved comments"
+msgstr "Ingen godkendte kommentarer"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:703
+msgid "No pending comments"
+msgstr "Ingen ventende kommentarer"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:816
+msgid "First page"
+msgstr "Første side"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:826
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:833
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:836
+msgid "Current Page"
+msgstr "Nuværende side"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:849
+msgid "Next page"
+msgstr "Næste side"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:859
+msgid "Last page"
+msgstr "Sidste side"
+
+#: wp-knowledgebase/includes/abstracts/abstract-class-list-table.php:1087
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:28
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:79
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:127
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:132
+msgid "Something went wrong. Could not activate the website. Please try again."
+msgstr "Noget gik galt. Kunne ikke aktivere webstedet. Prøv igen."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:52
+msgid "Your website has been successfully registered."
+msgstr "Dit websted er registreret."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:103
+msgid "Your website has been successfully deregistered."
+msgstr "Dit websted er blevet afregistreret med succes."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:123
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:130
+msgid "The provided license key does not exist or is invalid."
+msgstr "Den angivne licensnøgle findes ikke eller er ugyldig."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:124
+msgid "The provided license key is inactive."
+msgstr "Den angivne licensnøgle er inaktiv."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:125
+msgid "The provided license key is expired."
+msgstr "Den angivne licensnøgle er udløbet."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:126
+msgid ""
+"Your activation limit for this license key has been reached. Please upgrade "
+"your account if you'd like to register more websites."
+msgstr ""
+"Din aktiveringsgrænse for denne licensnøgle er nået. Opgradér din konto, "
+"hvis du gerne vil registrere flere websteder."
+
+#: wp-knowledgebase/includes/admin/functions-actions-ajax.php:131
+msgid "This website is not registered on our system."
+msgstr "Dette websted er ikke registreret på vores system."
+
+#: wp-knowledgebase/includes/admin/functions-promo.php:30
+msgid ""
+"Restrict access, by user role or individual users, to your knowledgebase "
+"articles and redirect unauthorized users to a custom link."
+msgstr ""
+"Begræns adgang til vidensbaseartikler ved brug af brugerroller eller for "
+"individuelle brugere, og omdirigér uautoriserede brugere til et "
+"brugerdefineret link."
+
+#: wp-knowledgebase/includes/admin/functions-promo.php:31
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: wp-knowledgebase/includes/admin/kbe-admin-functions.php:337
+msgid ""
+"WP Knowledgebase version 1.2.2 is packed with cool new features. Click the "
+"button below to check out what's new."
+msgstr ""
+"WP Knowledgebase version 1.2.2 er fyldt med seje nye funktioner. Klik på "
+"knappen nedenfor for at se, hvad der er nyt."
+
+#: wp-knowledgebase/includes/admin/kbe-admin-functions.php:341
+msgid "Dismiss notice"
+msgstr "Afvis meddelelsen"
+
+#: wp-knowledgebase/includes/admin/kbe-admin-functions.php:381
+#: wp-knowledgebase/includes/admin/kbe-order.php:440
+#: wp-knowledgebase/includes/admin/kbe-settings.php:625
+msgid "Need help?"
+msgstr "Brug for hjælp?"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:264
+msgid "Order Items"
+msgstr "Bestem rækkefølge for emner"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:276
+msgid "Category Order"
+msgstr "Rækkefølge for kategorier"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:292
+msgid ""
+"Drag and drop items to customise the order of categories in WP Knowledgebase"
+msgstr ""
+"Træk og slip elementer for at tilpasse rækkefølgen af kategorier i WP "
+"Knowledgebase"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:305
+#: wp-knowledgebase/includes/admin/kbe-order.php:387
+msgid "Save Order"
+msgstr "Gem rækkefølge"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:313
+msgid "No terms found"
+msgstr "Ingen begreber fundet"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:358
+msgid "Article Order"
+msgstr "Rækkefølge for artikler"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:373
+msgid ""
+"Drag and drop items to customise the order of articles in WP Knowledgebase"
+msgstr ""
+"Træk og slip elementer for at tilpasse rækkefølgen af artikler i WP "
+"Knowledgebase"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:394
+msgid "No Articles found"
+msgstr "Ingen artikler fundet"
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:445
+#: wp-knowledgebase/includes/admin/kbe-settings.php:630
+#, php-format
+msgid ""
+"Are you having issues setting up WP Knowledgebase? We can help. Just open a "
+"%ssupport ticket%s and we'll get back to you shortly."
+msgstr ""
+"Har du problemer med at opsætte WP Knowledgebase? Vi kan hjælpe. Bare opret "
+"en %ssag hos support%s, så vender vi snart tilbage til dig."
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:472
+msgid "Category Order updated successfully."
+msgstr "Rækkefølge af kategorier opdateret."
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:474
+#: wp-knowledgebase/includes/admin/kbe-order.php:496
+msgid "An error occured, order has not been saved."
+msgstr "Der opstod en fejl. Rækkefølgen er ikke blevet gemt."
+
+#: wp-knowledgebase/includes/admin/kbe-order.php:494
+msgid "Article Order updated successfully."
+msgstr "Artiklernes rækkefølge blev opdateret."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:224
+#: wp-knowledgebase/wp-knowledgebase.php:400
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:257
+msgid "Settings updated successfully"
+msgstr "Indstillinger blev opdateret"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:278
+msgid "Register Website"
+msgstr "Registrér website"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:288
+msgid "License Key"
+msgstr "Licensnøgle"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:296
+msgid "Register"
+msgstr "Registrér"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:297
+msgid "Deregister"
+msgstr "Afregistrer"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:317
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:327
+msgid "Knowledgebase Slug"
+msgstr "Slug til vidensbase"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:340
+msgid "Number of Articles to Show"
+msgstr "Antal artikler, der skal vises"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:347
+#: wp-knowledgebase/includes/admin/kbe-settings.php:412
+msgid "Note:"
+msgstr "Bemærk:"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:348
+msgid "Set the number of articles to show in each category on KB homepage"
+msgstr ""
+"Indstil antallet af artikler, der skal vises i hver kategori på vidensbasens "
+"hovedside"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:358
+msgid "Knowledgebase Comments"
+msgstr "Kommentarer på vidensbasen"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:369
+msgid "Enables comments for your knowledgebase articles."
+msgstr "Aktiverer kommentarer for dine artikler i vidensbasen."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:378
+msgid "Output CSS"
+msgstr "Output CSS"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:389
+msgid "If enabled, the plugin's stylesheet will be used."
+msgstr "Hvis dette er aktiveret, bruges plugins stylesheet."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:398
+msgid "Wipe All Data on Uninstall"
+msgstr "Ryd alle data ved afinstallation"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:409
+msgid "If enabled, when deleting the plugin all its data will be removed."
+msgstr ""
+"Hvis dette er aktiveret, fjernes alle data, når du sletter dette plugin."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:413
+msgid "This also includes all your articles and CANNOT be undone."
+msgstr "Dette omfatter også alle dine artikler og kan IKKE fortrydes."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:426
+msgid "Knowledgebase Design"
+msgstr "Vidensbasens udseende"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:436
+msgid "Main Page Template"
+msgstr "Skabelon til hovedsiden"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:441
+#: wp-knowledgebase/includes/admin/kbe-settings.php:458
+msgid "Full width"
+msgstr "Fuld bredde"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:442
+#: wp-knowledgebase/includes/admin/kbe-settings.php:459
+msgid "With left sidebar"
+msgstr "Med venstre sidebjælke"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:443
+#: wp-knowledgebase/includes/admin/kbe-settings.php:460
+msgid "With right sidebar"
+msgstr "Med højre sidebjælke"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:453
+msgid "Inner Pages Template"
+msgstr "Skabelon på indvendige sider"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:470
+msgid "Theme Color"
+msgstr "Temafarve"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:486
+#: wp-knowledgebase/includes/widgets/kbe-widget-search.php:21
+msgid "Knowledgebase Search"
+msgstr "Søgning i vidensbasen"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:496
+msgid "Enable Search"
+msgstr "Aktivér søgning"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:507
+msgid "Enables live search across your knowledgebase."
+msgstr "Aktiverer live søgning på tværs af din vidensbase."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:516
+msgid "Live Search Results Excerpt"
+msgstr "Uddrag for live-søgeresultater"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:527
+msgid ""
+"Shows the article excerpt alongside the title in the search results drop-"
+"down."
+msgstr ""
+"Viser et uddrag af artiklen sammen med titlen i rullelisten med "
+"søgeresultater."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:536
+msgid "Search Field Placeholder"
+msgstr "Pladsholder for søgefelt"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:549
+msgid "No Results Message"
+msgstr "Ingen resultater besked"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:565
+msgid "Knowledgebase Breadcrumbs"
+msgstr "Brødkrummer til vidensbase"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:575
+msgid "Enable Breadcrumbs"
+msgstr "Aktivér brødkrummer"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:586
+msgid "Enables breadcrumbs for your knowledgebase."
+msgstr "Aktiverer brødkrummer til din vidensbase."
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:595
+msgid "Breadcrumbs Items Separator"
+msgstr "Adskiller, der skal bruges til brødkrummer"
+
+#: wp-knowledgebase/includes/admin/kbe-settings.php:641
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: wp-knowledgebase/includes/class-deactivation.php:55
+msgid "We're sorry to see you go"
+msgstr "Vi er kede af at se dig gå"
+
+#: wp-knowledgebase/includes/class-deactivation.php:56
+msgid ""
+"Could you share with us the reason you are deactivating WP Knowledgebase?"
+msgstr "Vil du dele med os grunden til, at du deaktiverer WP Knowledgebase?"
+
+#: wp-knowledgebase/includes/class-deactivation.php:63
+msgid "Technical issues"
+msgstr "Tekniske problemer"
+
+#: wp-knowledgebase/includes/class-deactivation.php:64
+#, php-format
+msgid ""
+"Please describe the issues below or %scontact us directly here%s. This will "
+"help us test and solve these problems in a timely manner."
+msgstr ""
+"Beskriv dine problemer nedenfor eller %skontakt os direkte her%s. Dette vil "
+"hjælpe os med at teste og løse disse problemer rettidigt."
+
+#: wp-knowledgebase/includes/class-deactivation.php:65
+msgid "Type the issues here..."
+msgstr "Skriv problemerne her ..."
+
+#: wp-knowledgebase/includes/class-deactivation.php:72
+msgid "Missing features I need"
+msgstr "Manglende funktioner, jeg har brug for"
+
+#: wp-knowledgebase/includes/class-deactivation.php:73
+#, php-format
+msgid ""
+"Please describe the feature you need or %scontact us directly here%s. This "
+"will help us prioritize our tasks and work on the most requested features."
+msgstr ""
+"Beskriv den funktion, du har brug for, eller %skontakt os direkte her%s. "
+"Dette vil hjælpe os med at prioritere vores opgaver og arbejde med de mest "
+"efterspurgte funktioner."
+
+#: wp-knowledgebase/includes/class-deactivation.php:74
+msgid "Type the missing features here..."
+msgstr "Skriv de manglende funktioner her ..."
+
+#: wp-knowledgebase/includes/class-deactivation.php:81
+msgid "Other reason"
+msgstr "Anden grund"
+
+#: wp-knowledgebase/includes/class-deactivation.php:82
+msgid ""
+"We are continuously improving WP Knowledgebase and your feedback is "
+"extremely important to us. Please let us know how we can improve the plugin."
+msgstr ""
+"Vi forbedrer konstant WP Knowledgebase, og din feedback er ekstremt vigtig "
+"for os. Fortæl os venligst, hvordan vi kan forbedre dette plugin."
+
+#: wp-knowledgebase/includes/class-deactivation.php:83
+msgid "Type your feedback here..."
+msgstr "Skriv din feedback her ..."
+
+#: wp-knowledgebase/includes/class-deactivation.php:93
+msgid "Submit & Deactivate"
+msgstr "Indsend & Deaktivér"
+
+#: wp-knowledgebase/includes/class-deactivation.php:94
+msgid "Do not deactivate"
+msgstr "Deaktiver ikke"
+
+#: wp-knowledgebase/includes/kbe-articles.php:13
+#: wp-knowledgebase/includes/kbe-articles.php:14
+#: wp-knowledgebase/includes/migrations/migration-install.php:44
+msgid "Knowledgebase"
+msgstr "Vidensbase"
+
+#: wp-knowledgebase/includes/kbe-articles.php:15
+msgid "Articles"
+msgstr "Artikler"
+
+#: wp-knowledgebase/includes/kbe-articles.php:16
+#: wp-knowledgebase/includes/kbe-articles.php:19
+msgid "New Article"
+msgstr "Ny artikel"
+
+#: wp-knowledgebase/includes/kbe-articles.php:17
+msgid "Add New Article"
+msgstr "Tilføj ny artikel"
+
+#: wp-knowledgebase/includes/kbe-articles.php:18
+msgid "Edit Article"
+msgstr "Redigér artikel"
+
+#: wp-knowledgebase/includes/kbe-articles.php:20
+msgid "View Articles"
+msgstr "Vis artikler"
+
+#: wp-knowledgebase/includes/kbe-articles.php:21
+msgid "Search Articles"
+msgstr "Søg artikler"
+
+#: wp-knowledgebase/includes/kbe-articles.php:22
+msgid "Nothing found"
+msgstr "Intet fundet"
+
+#: wp-knowledgebase/includes/kbe-articles.php:23
+msgid "Nothing found in Trash"
+msgstr "Intet fundet i papirkurven"
+
+#: wp-knowledgebase/includes/kbe-articles.php:68
+msgid "Category"
+msgstr "Kategori"
+
+#: wp-knowledgebase/includes/kbe-articles.php:69
+#: wp-knowledgebase/includes/kbe-articles.php:84
+#: wp-knowledgebase/includes/widgets/kbe-widget-category.php:20
+msgid "Knowledgebase Category"
+msgstr "Kategori i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:70
+msgid "Search Knowledgebase Category"
+msgstr "Søg efter kategori i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:71
+msgid "All Knowledgebase Categories"
+msgstr "Alle kategorier i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:72
+msgid "Parent Knowledgebase Category"
+msgstr "Øverste kategori  i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:73
+msgid "Parent Knowledgebase Category:"
+msgstr "Øverste kategori i vidensbasen:"
+
+#: wp-knowledgebase/includes/kbe-articles.php:74
+msgid "Edit Knowledgebase Category"
+msgstr "Redigér kategori i vidensbase"
+
+#: wp-knowledgebase/includes/kbe-articles.php:75
+msgid "Update Knowledgebase Category"
+msgstr "Opdater kategori i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:76
+msgid "Add New Knowledgebase Category"
+msgstr "Tilføj ny kategori til vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:77
+msgid "New Knowledgebase Category Name"
+msgstr "Nyt navn til kategori i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:78
+msgid "Categories"
+msgstr "Kategorier"
+
+#: wp-knowledgebase/includes/kbe-articles.php:103
+#: wp-knowledgebase/includes/kbe-articles.php:111
+msgid "Tags"
+msgstr "Nøgleord"
+
+#: wp-knowledgebase/includes/kbe-articles.php:104
+msgid "Knowledgebase Tag"
+msgstr "Nøgleord til vidensbase"
+
+#: wp-knowledgebase/includes/kbe-articles.php:105
+msgid "Search Knowledgebase Tags"
+msgstr "Søg efter nøgleord i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:106
+msgid "All Knowledgebase Tags"
+msgstr "Alle nøgleord i vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:107
+msgid "Edit Knowledgebase Tag"
+msgstr "Redigér nøgleord til vidensbase"
+
+#: wp-knowledgebase/includes/kbe-articles.php:108
+msgid "Update Knowledgebase Tag"
+msgstr "Opdatér nøgleord for vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:109
+msgid "Add New Knowledgebase Tag"
+msgstr "Tilføj nyt nøgleord til vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:110
+msgid "New Knowledgebase Tag Name"
+msgstr "Nyt navn til nogleord for vidensbasen"
+
+#: wp-knowledgebase/includes/kbe-articles.php:181
+msgid "Views"
+msgstr "Visninger"
+
+#: wp-knowledgebase/includes/kbe-core-functions.php:42
+msgid "WP Knowledgebase Sidebar"
+msgstr "WP Knowledgebase sidebjælke"
+
+#: wp-knowledgebase/includes/kbe-core-functions.php:44
+msgid "WP Knowledgebase sidebar area"
+msgstr "WP Knowledgebase sidebjælkeområde"
+
+#: wp-knowledgebase/includes/kbe-template-functions.php:14
+msgid "Home"
+msgstr "Hjem"
+
+#: wp-knowledgebase/includes/migrations/class-abstract-migration.php:203
+msgid "Migrate"
+msgstr "Overfør"
+
+#: wp-knowledgebase/includes/migrations/class-abstract-migration.php:205
+#: wp-knowledgebase/includes/migrations/migration-install.php:66
+msgid "No thanks"
+msgstr "Nej Tak"
+
+#: wp-knowledgebase/includes/migrations/migration-1-2-2.php:35
+msgid "Search articles..."
+msgstr "Søg artikler ..."
+
+#: wp-knowledgebase/includes/migrations/migration-1-2-2.php:36
+#: wp-knowledgebase/template/kbe_search.php:44
+msgid "No results found."
+msgstr "Ingen resultater fundet."
+
+#: wp-knowledgebase/includes/migrations/migration-install.php:65
+msgid "Thank you for using WP Knowledgebase! :-) "
+msgstr "Tak fordi du bruger vidensbasen WP Knowledgebase! :-) "
+
+#: wp-knowledgebase/includes/migrations/migration-install.php:65
+msgid ""
+"A page is needed to display the knowledgebase on. Do you want us to create a "
+"page for you?"
+msgstr ""
+"En side er nødvendig for at vise vidensbasen. Vil du have, at vi opretter en "
+"side til dig?"
+
+#: wp-knowledgebase/includes/migrations/migration-install.php:66
+msgid "Create page"
+msgstr "Opret side"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:21
+msgid "Knowledgebase Article"
+msgstr "Artikel i vidensbase"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:23
+msgid "WP Knowledgebase article widget to show articles on the site"
+msgstr "WP Knowledgebase Article widget der viser artikler på siden"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:111
+msgid "Article Title:"
+msgstr "Titel på artikel:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:115
+msgid "Articles Quantity:"
+msgstr "Antal af artikler:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:119
+msgid "Articles Order:"
+msgstr "Artikelrækkefølge:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:121
+msgid "ASC"
+msgstr "Stigende"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:122
+msgid "DESC"
+msgstr "Faldende"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:126
+msgid "Articles Order by:"
+msgstr "Sortér artikler efter:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:128
+msgid "By Name"
+msgstr "Efter navn"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:129
+msgid "By Date"
+msgstr "Efter dato"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:130
+msgid "By Random"
+msgstr "Tilfældigt"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:131
+msgid "By Popularity"
+msgstr "Efter popularitet"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-article.php:132
+msgid "By Comments"
+msgstr "Efter kommentarer"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-category.php:22
+msgid "WP Knowledgebase category widget to show categories on the site"
+msgstr "WP Knowledgebase kategoriwidget til at vise kategorier på siden"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-category.php:53
+#, php-format
+msgid "View all posts in %s"
+msgstr "Vis alle indlæg i %s"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-category.php:83
+#: wp-knowledgebase/includes/widgets/kbe-widget-search.php:68
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:92
+msgid "Title:"
+msgstr "Titel:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-category.php:87
+msgid "Category Quantity:"
+msgstr "Antal af kategorier:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-search.php:23
+msgid "WP Knowledgebase search widget"
+msgstr "WP Knowledgebase søgningswidget"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:20
+msgid "Knowledgebase Tags"
+msgstr "Nøgleord til vidensbase"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:22
+msgid "WP Knowledgebase tags widget to show tags on the site"
+msgstr "WP Knowledgebase nøgleordswidget til at vise nøgleord på siden"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:96
+msgid "Tags Quantity:"
+msgstr "Antal af nøgleord:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:100
+msgid "Tags Style:"
+msgstr "Stil for nøgleord:"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:102
+msgid "Flat"
+msgstr "Flad"
+
+#: wp-knowledgebase/includes/widgets/kbe-widget-tags.php:103
+msgid "List"
+msgstr "Liste"
+
+#: wp-knowledgebase/template/kbe_search.php:73
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: wp-knowledgebase/template/kbe_search.php:88
+msgid "Read more..."
+msgstr "Læs mere..."
