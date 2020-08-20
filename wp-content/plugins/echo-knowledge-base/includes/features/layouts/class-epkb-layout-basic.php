@@ -42,7 +42,7 @@ class EPKB_Layout_Basic extends EPKB_Layout {
 	 */
 	private function display_main_page_content() {
 
-		$class0 = $this->get_css_class('::section_box_shadow, epkb-top-category-box');
+		$class0 = $this->get_css_class('::section_box_shadow, epkb-top-category-box, equal-height-content');
 		$style0 = $this->get_inline_style( 
 				'border-radius:: section_border_radius,
 				 border-width:: section_border_width,

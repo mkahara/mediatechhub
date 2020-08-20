@@ -144,7 +144,7 @@ abstract class EPKB_Layout {
 				<div class="epkb-search-box">
 					<input type="text" <?php echo $style4; ?> id="epkb_search_terms" aria-label="<?php echo esc_attr( $this->kb_config['search_box_hint'] ); ?>" name="epkb_search_terms" value="" placeholder="<?php echo esc_attr( $this->kb_config['search_box_hint'] ); ?>" />
 					<input type="hidden" id="epkb_kb_id" value="<?php echo $this->kb_id; ?>"/>
-					<button type="submit" id="epkb-search-kb" <?php echo $style2; ?>><?php echo esc_html( $this->kb_config['search_button_name'] ); ?> </button>
+					<button type="submit" id="epkb-search-kb" class="epkb-search-kb" <?php echo $style2; ?>><?php echo esc_html( $this->kb_config['search_button_name'] ); ?> </button>
 					<!-- Chrome 77 fix rendering text issue Sidebar Layout -->
 					<script>
 						jQuery( "#epkb-search-kb" ).load(function() {

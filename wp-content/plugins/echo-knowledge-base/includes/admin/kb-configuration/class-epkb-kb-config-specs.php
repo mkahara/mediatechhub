@@ -2171,7 +2171,7 @@ class EPKB_KB_Config_Specs {
 				'max'         => '100',
 				'min'         => '1',
 				'type'        => EPKB_Input_Filter::TEXT,
-				'default'     => __( 'Search the documentation...', 'echo-knowledge-base' )
+				'default'     => __( 'Type here...', 'echo-knowledge-base' )
 			),
 			'search_button_name' => array(
 				'label'       => __( 'Search Button Name', 'echo-knowledge-base' ),
