@@ -52,3 +52,14 @@ function searchbar( $form ) {
 	}
 	
 	add_shortcode('searchbar', 'searchbar');
+
+// Sample function showing how to tweak the metaboxes display for post types
+//add_filter( 'wpex_main_metaboxes_post_types', function( $types ) {
+
+	// Add to my custom-type post type
+	//$types[] = 'lp_course';
+  
+	// Return post types array
+	//return $types;
+	
+  //}, 40 );
